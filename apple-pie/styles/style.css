@@ -1,4 +1,4 @@
-/* CSS RESET - do not remove */
+
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
@@ -27,12 +27,10 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 30px;
 }
 
-hr{
-  width: 75%;
-  text-align: 100%;
-}
+
 
 .header-class{
   background-image:url("../images/apple-pie.jpg");
@@ -52,10 +50,13 @@ h1{
   font-size:40px ;
 }
 
-.content{
-  line-height: 25px;
-  padding:25px 125px;
+#main{
+  margin: auto;
+  width: 80%;
+  line-height: 30px;
+  padding: 25px;
 }
+
 
 h2{
   padding-top: 0;
